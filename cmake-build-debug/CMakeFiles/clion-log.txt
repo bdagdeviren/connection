@@ -1,0 +1,20 @@
+E:\Jetbrains\toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\Burak\CLionProjects\connection
+-- Cmake Source Dirs: C:/Users/Burak/CLionProjects/connection
+-- Including Libs Directories: 
+-- Including Libs Directories: libs/kubernetes/libkubernetes.so
+-- Including Src Directories: 
+-- Conan: Adjusting output directories
+-- Conan: Using cmake global configuration
+-- Conan: Adjusting default RPATHs Conan policies
+-- Conan: Adjusting language standard
+-- This project seems to be plain C, using 'MSVC' compiler
+-- Current conanbuildinfo.cmake directory: C:/Users/Burak/CLionProjects/connection/conan
+CMake Error at conan/conanbuildinfo.cmake:1026 (message):
+  Incorrect 'gcc', is not the one detected by CMake: 'MSVC'
+Call Stack (most recent call first):
+  conan/conanbuildinfo.cmake:587 (conan_check_compiler)
+  CMakeLists.txt:16 (conan_basic_setup)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/Burak/CLionProjects/connection/cmake-build-debug/CMakeFiles/CMakeOutput.log".
